@@ -17,7 +17,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
-    height: 80px;
+    min-height: 80px;
     background: #0db65c;
 }
 
@@ -39,7 +39,7 @@ header {
     width: 100px;
     line-height: 20px;
     justify-content: space-around;
-    padding: 20px 0 0 15px;
+    padding: 20px 5px 0 10px;
 }
 
 .header-dropdown {
@@ -47,21 +47,6 @@ header {
     border: none;
     font-size: .75em;
     display: inline;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    line-height: 80px;
-}
-
-header nav ul li a {
-    padding: 10px 10px;
-    font-weight: lighter;
-    font-size: 1.55vw;
 }
 
 #header-dropdown-container-2 {
@@ -99,6 +84,7 @@ header nav ul li a {
       
 .dropdown-content a {
     color: black;
+    font-weight: lighter;
     padding: 3px 4px;
     text-decoration: none;
     display: block;
