@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simmark CRM</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/fc46655f95.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    
+    <div id="logo-container">
+      <img src="./assets/images/SM LOGO.png" id="logo">
+    </div>
+    
+    <div id="view-mode" class="header-dropdown-container">
+      <label for="user-type">User View:</label>
+      <select name="user-type" id="user-type" class="header-dropdown">
+        <option value="admin">Admin</option>
+        <option value="tech">Tech</option>
+      </select>
+    </div>
+    
+    <div id="location" class="header-dropdown-container">
+      <label for="branch">Branch View:</label>
+      <select name="branch" id="branch" class="header-dropdown">
+        <option value="batemans-bay">Batemans Bay</option>
+        <option value="highlands">Highlands</option>
+        <option value="shoalhaven">Shoalhaven</option>
+        <option value="wollongong">Wollongong</option>
+      </select>
+    </div>
+
+    <div id="header-dropdown-container-2">
+      <div class="dropdown">
+        <button class="dropbtn">Dashboard</button>
+        <div class="dropdown-content">
+          <a href="#dashboard">Dashboard</a>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <button class="dropbtn">Create</button>
+        <div class="dropdown-content">
+          <a href="#create-client">Client</a>
+          <a href="#create-quote">Quote</a>
+          <a href="#create-job">Job</a>
+          <a href="#create-invoice">Invoice</a>
+          <a href="#create-po">Purchase Order</a>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <button class="dropbtn">Business</button>
+        <div class="dropdown-content">
+          <a href="#invoices">Invoices</a>
+          <a href="#stcs">STCs</a>
+          <a href="#purchases">Purchases</a>
+          <a href="#wip">Work In Progress</a>
+          <a href="#inventory">Inventory</a>
+          <a href="#returns">Returns</a>
+          <a href="#suppliers">Suppliers</a>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <button class="dropbtn">Compliance</button>
+        <div class="dropdown-content">
+          <a href="#whs">WH&S Forms</a>
+          <a href="#certification">Certificates</a>
+          <a href="#policies">Policies</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="header-icon-group">
+      <span class="header-icon-container"><i class="fas fa-inbox" id="company-messages" class="header-icons"></i></span>
+      <span class="header-icon-container"><i class="fas fa-cloud-sun" id="weather" class="header-icons"></i></span>
+      <span class="header-icon-container"><i class="fas fa-search" id="search" class="header-icons"></i></span>
+      <span class="header-icon-container"><i class="fas fa-user" id="user" class="header-icons"></i></span>
+    </div>
+  
+  </header>
+    
+  <main>
+    <section id="content-container">
+      <h1>Kacey Kelly</h1>
+
+    </section>
+  </main>
+
+  <footer>
+    <div>&copy; 2021 by North Nowra Investments Pty Ltd (T/A "Simmark")</div>
+    <div>Whistleblower Policy</div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
