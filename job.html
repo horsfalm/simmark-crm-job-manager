@@ -40,7 +40,7 @@
       <div class="dropdown">
         <button class="dropbtn">Dashboard</button>
         <div class="dropdown-content">
-          <a href="#dashboard">Dashboard</a>
+          <a href="./index.html">Dashboard</a>
         </div>
       </div>
     
@@ -89,7 +89,27 @@
     
   <main>
     <section id="content-container">
-      <h1>Kacey Kelly</h1>
+      <h1>New Job</h1>
+      
+      <label class="label-body" id="job-start">Select appointment date:</label>
+      <input type="date" id="job-start" name="job-start"
+       value="2022-01-10"
+       min="2022-01-01" max="2022-12-31">
+
+      <form class="drop-down-body" action="">Add technician(s):
+        <input list="technicians">
+        <datalist id="technicians" placeholder="Technician">
+          <option value="John Smith">
+          <option value="Bob Wilson">
+          <option value="Mary Brown">
+        </datalist>
+      </form>
+      
+      <label class="label-body" for="appt-start">Select appointment start time:</label>
+      <input class="time-body" id="appt-start" type="time" name="appt-time" step="1800" value="07:30">
+      
+      <label class="label-body" for="appt-end">Select appointment end time:</label>
+      <input class="time-body" id="appt-end" type="time" name="appt-time" step="1800" value="07:30">
 
     </section>
   </main>
@@ -100,6 +120,7 @@
   </footer>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/schedule.js"></script>
 </body>
 
 </html>

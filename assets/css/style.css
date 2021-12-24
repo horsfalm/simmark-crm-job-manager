@@ -405,3 +405,20 @@ img {
     grid-area: 11 / 10 / 17 / 10;
     background-color:yellow;
   }
+
+  .drop-down-body {
+    color: black;
+  }
+
+  .label-body {
+    color: black;
+  }
+
+  .time-body {
+    color: black;
+  }
+
+  #job-start {
+    color: black;
+  }
+
